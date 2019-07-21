@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=WhiskerMenu
+Comment=Menu
+Exec=xfce4-popup-whiskermenu -p
+Icon=arco-calamares-logo
+Path=
+Terminal=false
+StartupNotify=false

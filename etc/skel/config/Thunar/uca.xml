@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Abrir terminal aqui</name>
+	<unique-id>1563619526363866-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Exemplo de uma ação personalizada</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Abrir como Root</name>
+	<unique-id>1563620104168671-3</unique-id>
+	<command>pkexec thunar %f</command>
+	<description>Gerenciador como Administrador</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Excluir como root</name>
+	<unique-id>1563620225362290-4</unique-id>
+	<command>xterm -g 35x5 -fa &apos;Luxi Mono&apos; -fs 14 -e sudo rm -rf %F</command>
+	<description>Excluir arquivos e pastas</description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+</actions>
